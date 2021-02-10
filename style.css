@@ -1,0 +1,74 @@
+body{
+	background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+	font-family: verdana, sans-serif;
+	font-size: 15pt;
+	text-align: center;
+}
+div{
+
+}
+img{
+	position: relative;
+}
+h3{
+
+}
+caption{
+	caption-side: bottom;
+	text-align: center;
+}
+
+#main{
+
+}
+#title{
+
+}
+#image-div{
+	background-color: white;
+	display: block;
+	width: 450px;
+	margin: auto;
+}
+#image{
+	display: block;
+	max-width: 100%;
+	width: 80%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+#img-caption{
+	caption-side: bottom;
+}
+#tribute-info{
+	text-align: center;
+	font-family: Garamond, serif;
+	font-size: 2em;
+}
+#tribute-link{
+
+}
+#accomplishments{
+	background: lightgray;
+	text-align: left;
+	width: 60%;
+	margin-left: 20%;
+	margin-right:20%;
+	padding: 20px;
+}
+@media (min-width: 700px){
+	#accomplishments{
+		background: lightgray;
+		text-align: left;
+		width: 80%;
+		margin-left: 10%;
+		margin-right:10%;
+		padding: 20px;
+	}
+	#img-caption{
+		caption-side: bottom;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
